@@ -20,6 +20,6 @@ app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname + '/html/contact.html'));
 });
 
-app.listen(3000);
+app.listen(serverPort);
 
 console.log(`Server is up and running in ${serverUrl}${serverPort}`);
